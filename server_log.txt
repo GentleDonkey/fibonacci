@@ -1,0 +1,2195 @@
+2022-08-13 17:01:21,891 Debug logging test...
+2022-08-13 17:01:21,957 Using selector: KqueueSelector
+2022-08-13 17:01:21,967 server listening on 127.0.0.1:7890
+2022-08-13 17:01:21,967 server listening on [::1]:7890
+2022-08-13 17:01:26,321 = connection is CONNECTING
+2022-08-13 17:01:26,323 < GET / HTTP/1.1
+2022-08-13 17:01:26,323 < Host: 127.0.0.1:7890
+2022-08-13 17:01:26,323 < Upgrade: websocket
+2022-08-13 17:01:26,323 < Connection: Upgrade
+2022-08-13 17:01:26,323 < Sec-WebSocket-Key: T28NJGvn6PhJJZRqPqMUZw==
+2022-08-13 17:01:26,324 < Sec-WebSocket-Version: 13
+2022-08-13 17:01:26,324 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:01:26,324 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:01:26,325 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:01:26,326 > Upgrade: websocket
+2022-08-13 17:01:26,326 > Connection: Upgrade
+2022-08-13 17:01:26,326 > Sec-WebSocket-Accept: 8nTzSl0Y8bT+cFzzgEAourWcjqU=
+2022-08-13 17:01:26,326 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:01:26,326 > Date: Sat, 13 Aug 2022 21:01:26 GMT
+2022-08-13 17:01:26,326 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:01:26,326 connection open
+2022-08-13 17:01:26,326 = connection is OPEN
+2022-08-13 17:01:26,327 > TEXT 'OK' [2 bytes]
+2022-08-13 17:01:36,758 < TEXT 'e' [1 byte]
+2022-08-13 17:01:37,591 < TEXT 'r' [1 byte]
+2022-08-13 17:01:37,591 > TEXT 'Error: The numbers should be positive integers' [46 bytes]
+2022-08-13 17:01:37,592 > TEXT 'OK' [2 bytes]
+2022-08-13 17:01:46,327 % sending keepalive ping
+2022-08-13 17:01:46,327 > PING f8 21 b4 46 [binary, 4 bytes]
+2022-08-13 17:02:06,333 ! timed out waiting for keepalive pong
+2022-08-13 17:02:06,333 ! failing connection with code 1011
+2022-08-13 17:02:06,333 = connection is CLOSING
+2022-08-13 17:02:06,334 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:02:06,334 x half-closing TCP connection
+2022-08-13 17:02:11,052 = connection is CLOSED
+2022-08-13 17:02:11,053 connection closed
+2022-08-13 17:21:58,819 Debug logging test...
+2022-08-13 17:21:58,883 Using selector: KqueueSelector
+2022-08-13 17:21:58,895 server listening on [::1]:7890
+2022-08-13 17:21:58,895 server listening on 127.0.0.1:7890
+2022-08-13 17:22:00,671 = connection is CONNECTING
+2022-08-13 17:22:00,672 < GET / HTTP/1.1
+2022-08-13 17:22:00,672 < Host: 127.0.0.1:7890
+2022-08-13 17:22:00,672 < Upgrade: websocket
+2022-08-13 17:22:00,672 < Connection: Upgrade
+2022-08-13 17:22:00,672 < Sec-WebSocket-Key: eauoKlkG5FMlETe+911Hlw==
+2022-08-13 17:22:00,672 < Sec-WebSocket-Version: 13
+2022-08-13 17:22:00,673 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:22:00,673 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:22:00,675 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:22:00,675 > Upgrade: websocket
+2022-08-13 17:22:00,675 > Connection: Upgrade
+2022-08-13 17:22:00,675 > Sec-WebSocket-Accept: 4z08yiIhlaiYf56x+ARQUyrZLX4=
+2022-08-13 17:22:00,675 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:22:00,675 > Date: Sat, 13 Aug 2022 21:22:00 GMT
+2022-08-13 17:22:00,675 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:22:00,675 connection open
+2022-08-13 17:22:00,675 = connection is OPEN
+2022-08-13 17:22:00,675 > TEXT 'OK' [2 bytes]
+2022-08-13 17:22:20,680 % sending keepalive ping
+2022-08-13 17:22:20,680 > PING 4c fb 70 1c [binary, 4 bytes]
+2022-08-13 17:22:40,683 ! timed out waiting for keepalive pong
+2022-08-13 17:22:40,683 ! failing connection with code 1011
+2022-08-13 17:22:40,683 = connection is CLOSING
+2022-08-13 17:22:40,683 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:22:40,683 x half-closing TCP connection
+2022-08-13 17:22:50,687 ! timed out waiting for TCP close
+2022-08-13 17:22:50,687 x closing TCP connection
+2022-08-13 17:22:50,687 = connection is CLOSED
+2022-08-13 17:22:50,688 connection closed
+2022-08-13 17:23:09,513 = connection is CONNECTING
+2022-08-13 17:23:09,514 < GET / HTTP/1.1
+2022-08-13 17:23:09,514 < Host: 127.0.0.1:7890
+2022-08-13 17:23:09,514 < Upgrade: websocket
+2022-08-13 17:23:09,514 < Connection: Upgrade
+2022-08-13 17:23:09,514 < Sec-WebSocket-Key: 9NHsLOSLsSYaHEAU8d789g==
+2022-08-13 17:23:09,514 < Sec-WebSocket-Version: 13
+2022-08-13 17:23:09,514 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:23:09,514 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:23:09,514 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:23:09,515 > Upgrade: websocket
+2022-08-13 17:23:09,515 > Connection: Upgrade
+2022-08-13 17:23:09,515 > Sec-WebSocket-Accept: 2FThcxglx8VaIppV70tH2ndKGr4=
+2022-08-13 17:23:09,515 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:23:09,515 > Date: Sat, 13 Aug 2022 21:23:09 GMT
+2022-08-13 17:23:09,515 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:23:09,515 connection open
+2022-08-13 17:23:09,515 = connection is OPEN
+2022-08-13 17:23:09,515 > TEXT 'OK' [2 bytes]
+2022-08-13 17:23:18,095 < TEXT '5' [1 byte]
+2022-08-13 17:23:18,847 < TEXT '6' [1 byte]
+2022-08-13 17:23:18,847 > TEXT 'Your result is [3, 5]' [21 bytes]
+2022-08-13 17:23:18,847 > TEXT 'OK' [2 bytes]
+2022-08-13 17:23:29,515 % sending keepalive ping
+2022-08-13 17:23:29,516 > PING 93 25 9c 0e [binary, 4 bytes]
+2022-08-13 17:23:49,519 ! timed out waiting for keepalive pong
+2022-08-13 17:23:49,519 ! failing connection with code 1011
+2022-08-13 17:23:49,520 = connection is CLOSING
+2022-08-13 17:23:49,520 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:23:49,520 x half-closing TCP connection
+2022-08-13 17:23:59,522 ! timed out waiting for TCP close
+2022-08-13 17:23:59,522 x closing TCP connection
+2022-08-13 17:23:59,522 = connection is CLOSED
+2022-08-13 17:23:59,523 connection closed
+2022-08-13 17:29:31,776 Debug logging test...
+2022-08-13 17:29:31,837 Using selector: KqueueSelector
+2022-08-13 17:29:31,848 server listening on [::1]:7890
+2022-08-13 17:29:31,848 server listening on 127.0.0.1:7890
+2022-08-13 17:29:33,145 = connection is CONNECTING
+2022-08-13 17:29:33,146 < GET / HTTP/1.1
+2022-08-13 17:29:33,146 < Host: 127.0.0.1:7890
+2022-08-13 17:29:33,146 < Upgrade: websocket
+2022-08-13 17:29:33,146 < Connection: Upgrade
+2022-08-13 17:29:33,146 < Sec-WebSocket-Key: FuP2ri8PZMT6m9Oem1WjZQ==
+2022-08-13 17:29:33,146 < Sec-WebSocket-Version: 13
+2022-08-13 17:29:33,146 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:29:33,146 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:29:33,149 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:29:33,149 > Upgrade: websocket
+2022-08-13 17:29:33,149 > Connection: Upgrade
+2022-08-13 17:29:33,149 > Sec-WebSocket-Accept: eKevVrmiW0fD/er3TUlMLrnlWi4=
+2022-08-13 17:29:33,149 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:29:33,149 > Date: Sat, 13 Aug 2022 21:29:33 GMT
+2022-08-13 17:29:33,149 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:29:33,149 connection open
+2022-08-13 17:29:33,149 = connection is OPEN
+2022-08-13 17:29:33,149 > TEXT 'OK' [2 bytes]
+2022-08-13 17:29:35,642 < TEXT '1' [1 byte]
+2022-08-13 17:29:36,044 < TEXT '2' [1 byte]
+2022-08-13 17:29:36,044 > TEXT 'Your result is [0, 1]' [21 bytes]
+2022-08-13 17:29:36,044 > TEXT 'OK' [2 bytes]
+2022-08-13 17:29:53,150 % sending keepalive ping
+2022-08-13 17:29:53,151 > PING c2 df 92 7b [binary, 4 bytes]
+2022-08-13 17:29:53,364 < TEXT '1' [1 byte]
+2022-08-13 17:29:54,156 < TEXT '2' [1 byte]
+2022-08-13 17:29:54,156 > TEXT 'Your result is [0, 1]' [21 bytes]
+2022-08-13 17:29:54,157 > TEXT 'OK' [2 bytes]
+2022-08-13 17:29:54,157 < PONG c2 df 92 7b [binary, 4 bytes]
+2022-08-13 17:29:54,157 < PING ce 0a 63 c3 [binary, 4 bytes]
+2022-08-13 17:29:54,157 > PONG ce 0a 63 c3 [binary, 4 bytes]
+2022-08-13 17:29:54,158 % received keepalive pong
+2022-08-13 17:30:14,162 % sending keepalive ping
+2022-08-13 17:30:14,162 > PING 81 74 82 32 [binary, 4 bytes]
+2022-08-13 17:30:34,164 ! timed out waiting for keepalive pong
+2022-08-13 17:30:34,165 ! failing connection with code 1011
+2022-08-13 17:30:34,165 = connection is CLOSING
+2022-08-13 17:30:34,165 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:30:34,166 x half-closing TCP connection
+2022-08-13 17:30:44,168 ! timed out waiting for TCP close
+2022-08-13 17:30:44,168 x closing TCP connection
+2022-08-13 17:30:44,168 = connection is CLOSED
+2022-08-13 17:30:44,168 connection closed
+2022-08-13 17:32:02,537 Debug logging test...
+2022-08-13 17:32:02,600 Using selector: KqueueSelector
+2022-08-13 17:32:02,612 server listening on 127.0.0.1:7890
+2022-08-13 17:32:02,612 server listening on [::1]:7890
+2022-08-13 17:32:04,037 = connection is CONNECTING
+2022-08-13 17:32:04,039 < GET / HTTP/1.1
+2022-08-13 17:32:04,039 < Host: 127.0.0.1:7890
+2022-08-13 17:32:04,039 < Upgrade: websocket
+2022-08-13 17:32:04,039 < Connection: Upgrade
+2022-08-13 17:32:04,039 < Sec-WebSocket-Key: 2po6sfQ4jDD0jn+F1hv4gw==
+2022-08-13 17:32:04,039 < Sec-WebSocket-Version: 13
+2022-08-13 17:32:04,039 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:32:04,039 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:32:04,041 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:32:04,041 > Upgrade: websocket
+2022-08-13 17:32:04,041 > Connection: Upgrade
+2022-08-13 17:32:04,041 > Sec-WebSocket-Accept: mSJ99x61cozV0YxVWRVM7x3q6OU=
+2022-08-13 17:32:04,041 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:32:04,041 > Date: Sat, 13 Aug 2022 21:32:04 GMT
+2022-08-13 17:32:04,042 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:32:04,042 connection open
+2022-08-13 17:32:04,042 = connection is OPEN
+2022-08-13 17:32:04,042 > TEXT 'OK' [2 bytes]
+2022-08-13 17:32:24,047 % sending keepalive ping
+2022-08-13 17:32:24,047 > PING 3b 00 09 d2 [binary, 4 bytes]
+2022-08-13 17:32:44,049 ! timed out waiting for keepalive pong
+2022-08-13 17:32:44,050 ! failing connection with code 1011
+2022-08-13 17:32:44,050 = connection is CLOSING
+2022-08-13 17:32:44,050 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:32:44,050 x half-closing TCP connection
+2022-08-13 17:32:54,053 ! timed out waiting for TCP close
+2022-08-13 17:32:54,053 x closing TCP connection
+2022-08-13 17:32:54,053 = connection is CLOSED
+2022-08-13 17:32:54,053 connection closed
+2022-08-13 17:33:46,211 Debug logging test...
+2022-08-13 17:33:46,275 Using selector: KqueueSelector
+2022-08-13 17:33:46,287 server listening on [::1]:7890
+2022-08-13 17:33:46,288 server listening on 127.0.0.1:7890
+2022-08-13 17:33:47,303 = connection is CONNECTING
+2022-08-13 17:33:47,305 < GET / HTTP/1.1
+2022-08-13 17:33:47,305 < Host: 127.0.0.1:7890
+2022-08-13 17:33:47,305 < Upgrade: websocket
+2022-08-13 17:33:47,305 < Connection: Upgrade
+2022-08-13 17:33:47,305 < Sec-WebSocket-Key: 98+eIfpANzXvsht7ng6sfw==
+2022-08-13 17:33:47,305 < Sec-WebSocket-Version: 13
+2022-08-13 17:33:47,305 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:33:47,306 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:33:47,306 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:33:47,307 > Upgrade: websocket
+2022-08-13 17:33:47,307 > Connection: Upgrade
+2022-08-13 17:33:47,307 > Sec-WebSocket-Accept: qW0vz28G14z3U8ZblIOR+JQ89tY=
+2022-08-13 17:33:47,307 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:33:47,307 > Date: Sat, 13 Aug 2022 21:33:47 GMT
+2022-08-13 17:33:47,307 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:33:47,307 connection open
+2022-08-13 17:33:47,307 = connection is OPEN
+2022-08-13 17:33:47,307 > TEXT 'OK' [2 bytes]
+2022-08-13 17:33:49,570 < TEXT '1' [1 byte]
+2022-08-13 17:33:51,154 < TEXT '2' [1 byte]
+2022-08-13 17:33:51,154 > TEXT 'Your result is [0, 1]' [21 bytes]
+2022-08-13 17:33:51,155 > TEXT 'OK' [2 bytes]
+2022-08-13 17:34:07,311 % sending keepalive ping
+2022-08-13 17:34:07,311 > PING ed 40 10 ac [binary, 4 bytes]
+2022-08-13 17:34:27,315 ! timed out waiting for keepalive pong
+2022-08-13 17:34:27,315 ! failing connection with code 1011
+2022-08-13 17:34:27,315 = connection is CLOSING
+2022-08-13 17:34:27,315 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:34:27,316 x half-closing TCP connection
+2022-08-13 17:34:33,394 = connection is CLOSED
+2022-08-13 17:34:33,394 connection closed
+2022-08-13 17:43:07,565 Debug logging test...
+2022-08-13 17:43:07,623 Using selector: KqueueSelector
+2022-08-13 17:43:07,634 server listening on 127.0.0.1:7890
+2022-08-13 17:43:07,634 server listening on [::1]:7890
+2022-08-13 17:43:10,420 = connection is CONNECTING
+2022-08-13 17:43:10,421 < GET / HTTP/1.1
+2022-08-13 17:43:10,421 < Host: 127.0.0.1:7890
+2022-08-13 17:43:10,421 < Upgrade: websocket
+2022-08-13 17:43:10,421 < Connection: Upgrade
+2022-08-13 17:43:10,421 < Sec-WebSocket-Key: Mc1M7pkGabSMFRDLf5wLWg==
+2022-08-13 17:43:10,421 < Sec-WebSocket-Version: 13
+2022-08-13 17:43:10,421 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:43:10,421 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:43:10,423 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:43:10,423 > Upgrade: websocket
+2022-08-13 17:43:10,423 > Connection: Upgrade
+2022-08-13 17:43:10,423 > Sec-WebSocket-Accept: dW/wyzCE0RJaOM4RjUnW7Bh9rgo=
+2022-08-13 17:43:10,423 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:43:10,423 > Date: Sat, 13 Aug 2022 21:43:10 GMT
+2022-08-13 17:43:10,423 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:43:10,423 connection open
+2022-08-13 17:43:10,423 = connection is OPEN
+2022-08-13 17:43:10,423 > TEXT 'OK' [2 bytes]
+2022-08-13 17:43:13,962 < TEXT '1' [1 byte]
+2022-08-13 17:43:14,490 < TEXT '3' [1 byte]
+2022-08-13 17:43:14,490 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:43:14,490 > TEXT 'OK' [2 bytes]
+2022-08-13 17:43:40,904 < TEXT '1' [1 byte]
+2022-08-13 17:43:41,619 < TEXT '3' [1 byte]
+2022-08-13 17:43:41,619 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:43:41,620 > TEXT 'OK' [2 bytes]
+2022-08-13 17:43:41,623 < PING 6d 41 d9 5c [binary, 4 bytes]
+2022-08-13 17:43:41,623 > PONG 6d 41 d9 5c [binary, 4 bytes]
+2022-08-13 17:44:57,983 < TEXT '1' [1 byte]
+2022-08-13 17:44:59,007 < TEXT '3' [1 byte]
+2022-08-13 17:44:59,008 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:44:59,008 > TEXT 'OK' [2 bytes]
+2022-08-13 17:44:59,009 < CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:44:59,010 = connection is CLOSING
+2022-08-13 17:44:59,010 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:44:59,010 x half-closing TCP connection
+2022-08-13 17:44:59,012 = connection is CLOSED
+2022-08-13 17:44:59,012 connection closed
+2022-08-13 17:46:29,607 Debug logging test...
+2022-08-13 17:46:29,676 Using selector: KqueueSelector
+2022-08-13 17:46:29,695 server listening on 127.0.0.1:7890
+2022-08-13 17:46:29,696 server listening on [::1]:7890
+2022-08-13 17:46:30,677 = connection is CONNECTING
+2022-08-13 17:46:30,678 < GET / HTTP/1.1
+2022-08-13 17:46:30,678 < Host: 127.0.0.1:7890
+2022-08-13 17:46:30,679 < Upgrade: websocket
+2022-08-13 17:46:30,679 < Connection: Upgrade
+2022-08-13 17:46:30,679 < Sec-WebSocket-Key: eanrSl0aDvptcTj4iGKLJg==
+2022-08-13 17:46:30,679 < Sec-WebSocket-Version: 13
+2022-08-13 17:46:30,679 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:46:30,679 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:46:30,680 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:46:30,680 > Upgrade: websocket
+2022-08-13 17:46:30,680 > Connection: Upgrade
+2022-08-13 17:46:30,680 > Sec-WebSocket-Accept: Jpb8mcLZn13kNK1sTXOFjsYcJqY=
+2022-08-13 17:46:30,680 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:46:30,680 > Date: Sat, 13 Aug 2022 21:46:30 GMT
+2022-08-13 17:46:30,680 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:46:30,680 connection open
+2022-08-13 17:46:30,681 = connection is OPEN
+2022-08-13 17:46:30,681 > TEXT 'OK' [2 bytes]
+2022-08-13 17:46:32,531 < TEXT '1' [1 byte]
+2022-08-13 17:46:33,051 < TEXT '3' [1 byte]
+2022-08-13 17:46:33,051 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:46:33,052 > TEXT 'OK' [2 bytes]
+2022-08-13 17:46:49,370 < TEXT '1' [1 byte]
+2022-08-13 17:46:50,032 < TEXT '3' [1 byte]
+2022-08-13 17:46:50,033 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:46:50,033 > TEXT 'OK' [2 bytes]
+2022-08-13 17:46:50,681 % sending keepalive ping
+2022-08-13 17:46:50,681 > PING b2 f9 ed e3 [binary, 4 bytes]
+2022-08-13 17:47:10,682 % sending keepalive ping
+2022-08-13 17:47:10,684 > PING f1 5d 19 08 [binary, 4 bytes]
+2022-08-13 17:47:24,469 < TEXT '1' [1 byte]
+2022-08-13 17:47:25,254 < TEXT '3' [1 byte]
+2022-08-13 17:47:25,255 < PONG b2 f9 ed e3 [binary, 4 bytes]
+2022-08-13 17:47:25,255 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:47:25,256 > TEXT 'OK' [2 bytes]
+2022-08-13 17:47:25,256 < PONG f1 5d 19 08 [binary, 4 bytes]
+2022-08-13 17:47:25,257 < PING 68 db e1 bd [binary, 4 bytes]
+2022-08-13 17:47:25,257 > PONG 68 db e1 bd [binary, 4 bytes]
+2022-08-13 17:47:30,687 % sending keepalive ping
+2022-08-13 17:47:30,687 > PING 95 fb 8d 39 [binary, 4 bytes]
+2022-08-13 17:47:50,689 % sending keepalive ping
+2022-08-13 17:47:50,691 > PING e2 20 84 bb [binary, 4 bytes]
+2022-08-13 17:48:10,696 % sending keepalive ping
+2022-08-13 17:48:10,696 > PING 2e c8 10 a5 [binary, 4 bytes]
+2022-08-13 17:48:30,696 % sending keepalive ping
+2022-08-13 17:48:30,698 > PING fa b0 67 7e [binary, 4 bytes]
+2022-08-13 17:48:50,702 % sending keepalive ping
+2022-08-13 17:48:50,703 > PING 3d a2 a8 f5 [binary, 4 bytes]
+2022-08-13 17:49:10,706 % sending keepalive ping
+2022-08-13 17:49:10,708 > PING 93 f0 81 a9 [binary, 4 bytes]
+2022-08-13 17:49:22,832 < TEXT '2' [1 byte]
+2022-08-13 17:49:23,607 < TEXT '4' [1 byte]
+2022-08-13 17:49:23,608 > TEXT 'Your result is [1, 1, 2]' [24 bytes]
+2022-08-13 17:49:23,608 > TEXT 'OK' [2 bytes]
+2022-08-13 17:49:23,609 < PONG 95 fb 8d 39 [binary, 4 bytes]
+2022-08-13 17:49:23,609 < PONG e2 20 84 bb [binary, 4 bytes]
+2022-08-13 17:49:23,609 < PONG 2e c8 10 a5 [binary, 4 bytes]
+2022-08-13 17:49:23,610 < PONG fa b0 67 7e [binary, 4 bytes]
+2022-08-13 17:49:23,610 < PONG 3d a2 a8 f5 [binary, 4 bytes]
+2022-08-13 17:49:23,610 < PONG 93 f0 81 a9 [binary, 4 bytes]
+2022-08-13 17:49:23,611 < CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:49:23,611 = connection is CLOSING
+2022-08-13 17:49:23,611 > CLOSE 1011 (unexpected error) keepalive ping timeout [24 bytes]
+2022-08-13 17:49:23,612 x half-closing TCP connection
+2022-08-13 17:49:23,612 = connection is CLOSED
+2022-08-13 17:49:23,613 connection closed
+2022-08-13 17:54:28,776 Debug logging test...
+2022-08-13 17:54:28,853 Using selector: KqueueSelector
+2022-08-13 17:54:28,866 server listening on 127.0.0.1:7890
+2022-08-13 17:54:28,866 server listening on [::1]:7890
+2022-08-13 17:59:17,103 Debug logging test...
+2022-08-13 17:59:17,184 Using selector: KqueueSelector
+2022-08-13 17:59:17,200 server listening on [::1]:7890
+2022-08-13 17:59:17,200 server listening on 127.0.0.1:7890
+2022-08-13 17:59:28,631 Debug logging test...
+2022-08-13 17:59:28,723 Using selector: KqueueSelector
+2022-08-13 17:59:28,739 server listening on 127.0.0.1:7890
+2022-08-13 17:59:28,739 server listening on [::1]:7890
+2022-08-13 17:59:30,551 = connection is CONNECTING
+2022-08-13 17:59:30,553 < GET / HTTP/1.1
+2022-08-13 17:59:30,554 < Host: 127.0.0.1:7890
+2022-08-13 17:59:30,554 < Upgrade: websocket
+2022-08-13 17:59:30,554 < Connection: Upgrade
+2022-08-13 17:59:30,554 < Sec-WebSocket-Key: rxAaZGvq5Z7T2pNYwH+qWw==
+2022-08-13 17:59:30,554 < Sec-WebSocket-Version: 13
+2022-08-13 17:59:30,554 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 17:59:30,554 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 17:59:30,556 > HTTP/1.1 101 Switching Protocols
+2022-08-13 17:59:30,556 > Upgrade: websocket
+2022-08-13 17:59:30,556 > Connection: Upgrade
+2022-08-13 17:59:30,556 > Sec-WebSocket-Accept: gHelt7GrWetDG1GTGeOC/WmoRlk=
+2022-08-13 17:59:30,557 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 17:59:30,557 > Date: Sat, 13 Aug 2022 21:59:30 GMT
+2022-08-13 17:59:30,557 > Server: Python/3.9 websockets/10.3
+2022-08-13 17:59:30,557 connection open
+2022-08-13 17:59:30,557 = connection is OPEN
+2022-08-13 17:59:30,557 > TEXT 'OK' [2 bytes]
+2022-08-13 17:59:32,390 < TEXT '1' [1 byte]
+2022-08-13 17:59:33,214 < TEXT '3' [1 byte]
+2022-08-13 17:59:33,214 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 17:59:33,215 > TEXT 'OK' [2 bytes]
+2022-08-13 17:59:40,187 < TEXT '1' [1 byte]
+2022-08-13 17:59:50,561 % sending keepalive ping
+2022-08-13 17:59:50,561 > PING 37 2a 79 b8 [binary, 4 bytes]
+2022-08-13 18:00:04,609 < TEXT '3' [1 byte]
+2022-08-13 18:00:04,610 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 18:00:04,610 > TEXT 'OK' [2 bytes]
+2022-08-13 18:00:04,610 < PONG 37 2a 79 b8 [binary, 4 bytes]
+2022-08-13 18:00:04,611 < PING 60 c2 33 cf [binary, 4 bytes]
+2022-08-13 18:00:04,611 > PONG 60 c2 33 cf [binary, 4 bytes]
+2022-08-13 18:00:10,566 % sending keepalive ping
+2022-08-13 18:00:10,566 > PING 02 f6 bc 1c [binary, 4 bytes]
+2022-08-13 18:00:22,184 < TEXT '1' [1 byte]
+2022-08-13 18:00:22,906 < TEXT '3' [1 byte]
+2022-08-13 18:00:22,907 > TEXT 'Your result is [0, 1, 1]' [24 bytes]
+2022-08-13 18:00:22,907 > TEXT 'OK' [2 bytes]
+2022-08-13 18:00:22,907 < PONG 02 f6 bc 1c [binary, 4 bytes]
+2022-08-13 18:00:26,003 < TEXT '2' [1 byte]
+2022-08-13 18:00:27,017 < TEXT '4' [1 byte]
+2022-08-13 18:00:27,017 > TEXT 'Your result is [1, 1, 2]' [24 bytes]
+2022-08-13 18:00:27,018 > TEXT 'OK' [2 bytes]
+2022-08-13 18:00:27,018 < PING 5e 95 68 b6 [binary, 4 bytes]
+2022-08-13 18:00:27,018 > PONG 5e 95 68 b6 [binary, 4 bytes]
+2022-08-13 18:00:30,571 % sending keepalive ping
+2022-08-13 18:00:30,571 > PING 66 82 9b 9f [binary, 4 bytes]
+2022-08-13 18:00:50,572 % sending keepalive ping
+2022-08-13 18:00:50,573 > PING 05 6b ae c6 [binary, 4 bytes]
+2022-08-13 18:00:58,706 < TEXT '3' [1 byte]
+2022-08-13 18:00:59,745 < TEXT '5' [1 byte]
+2022-08-13 18:00:59,745 > TEXT 'Your result is [1, 2, 3]' [24 bytes]
+2022-08-13 18:00:59,745 > TEXT 'OK' [2 bytes]
+2022-08-13 18:00:59,746 < PONG 66 82 9b 9f [binary, 4 bytes]
+2022-08-13 18:00:59,746 < PONG 05 6b ae c6 [binary, 4 bytes]
+2022-08-13 18:00:59,747 < PING 'Ů~\x1d' [text, 4 bytes]
+2022-08-13 18:00:59,747 > PONG 'Ů~\x1d' [text, 4 bytes]
+2022-08-13 18:01:07,722 < TEXT '6' [1 byte]
+2022-08-13 18:01:08,513 < TEXT '8' [1 byte]
+2022-08-13 18:01:08,514 > TEXT 'Your result is [5, 8, 13]' [25 bytes]
+2022-08-13 18:01:08,514 > TEXT 'OK' [2 bytes]
+2022-08-13 18:01:10,573 % sending keepalive ping
+2022-08-13 18:01:10,574 > PING e5 b6 98 cd [binary, 4 bytes]
+2022-08-13 18:01:10,922 < TEXT '9' [1 byte]
+2022-08-13 18:01:12,266 < TEXT '11' [2 bytes]
+2022-08-13 18:01:12,266 > TEXT 'Your result is [21, 34, 55]' [27 bytes]
+2022-08-13 18:01:12,266 > TEXT 'OK' [2 bytes]
+2022-08-13 18:01:12,267 < PONG e5 b6 98 cd [binary, 4 bytes]
+2022-08-13 18:01:30,574 % sending keepalive ping
+2022-08-13 18:01:30,574 > PING 3d 84 7e 6d [binary, 4 bytes]
+2022-08-13 18:01:50,577 % sending keepalive ping
+2022-08-13 18:01:50,577 > PING ba 59 99 3b [binary, 4 bytes]
+2022-08-13 18:02:05,617 < TEXT '2' [1 byte]
+2022-08-13 18:02:06,321 < TEXT '5' [1 byte]
+2022-08-13 18:02:06,322 > TEXT 'Your result is [1, 1, 2, 3]' [27 bytes]
+2022-08-13 18:02:06,322 > TEXT 'OK' [2 bytes]
+2022-08-13 18:02:06,322 < PONG 3d 84 7e 6d [binary, 4 bytes]
+2022-08-13 18:02:06,322 < PONG ba 59 99 3b [binary, 4 bytes]
+2022-08-13 18:02:06,323 < PING 72 74 d3 d6 [binary, 4 bytes]
+2022-08-13 18:02:06,323 > PONG 72 74 d3 d6 [binary, 4 bytes]
+2022-08-13 18:02:10,580 % sending keepalive ping
+2022-08-13 18:02:10,580 > PING f8 0c c2 16 [binary, 4 bytes]
+2022-08-13 18:02:18,070 ! failing connection with code 1006
+2022-08-13 18:02:18,070 = connection is CLOSED
+2022-08-13 18:02:18,070 x half-closing TCP connection
+2022-08-13 18:02:18,071 connection closed
+2022-08-13 18:02:21,869 = connection is CONNECTING
+2022-08-13 18:02:21,871 < GET / HTTP/1.1
+2022-08-13 18:02:21,871 < Host: 127.0.0.1:7890
+2022-08-13 18:02:21,871 < Upgrade: websocket
+2022-08-13 18:02:21,871 < Connection: Upgrade
+2022-08-13 18:02:21,871 < Sec-WebSocket-Key: +a8X1+jQPTdmAgImJgJC7w==
+2022-08-13 18:02:21,871 < Sec-WebSocket-Version: 13
+2022-08-13 18:02:21,871 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 18:02:21,871 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 18:02:21,872 > HTTP/1.1 101 Switching Protocols
+2022-08-13 18:02:21,872 > Upgrade: websocket
+2022-08-13 18:02:21,872 > Connection: Upgrade
+2022-08-13 18:02:21,872 > Sec-WebSocket-Accept: 7rMY7weIukVkiABZtYLpMoUTa1w=
+2022-08-13 18:02:21,872 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 18:02:21,872 > Date: Sat, 13 Aug 2022 22:02:21 GMT
+2022-08-13 18:02:21,872 > Server: Python/3.9 websockets/10.3
+2022-08-13 18:02:21,872 connection open
+2022-08-13 18:02:21,872 = connection is OPEN
+2022-08-13 18:02:21,872 > TEXT 'OK' [2 bytes]
+2022-08-13 18:02:23,863 < TEXT '1' [1 byte]
+2022-08-13 18:02:24,730 < TEXT '4' [1 byte]
+2022-08-13 18:02:24,731 > TEXT 'Your result is [0, 1, 1, 2]' [27 bytes]
+2022-08-13 18:02:24,731 > TEXT 'OK' [2 bytes]
+2022-08-13 18:02:27,059 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:02:33,440 Debug logging test...
+2022-08-13 18:02:33,506 Using selector: KqueueSelector
+2022-08-13 18:02:33,519 server listening on [::1]:7890
+2022-08-13 18:02:33,519 server listening on 127.0.0.1:7890
+2022-08-13 18:02:37,214 = connection is CONNECTING
+2022-08-13 18:02:37,215 < GET / HTTP/1.1
+2022-08-13 18:02:37,215 < Host: 127.0.0.1:7890
+2022-08-13 18:02:37,215 < Upgrade: websocket
+2022-08-13 18:02:37,215 < Connection: Upgrade
+2022-08-13 18:02:37,215 < Sec-WebSocket-Key: UydoxlmsCtlGDHLFFfkNaw==
+2022-08-13 18:02:37,215 < Sec-WebSocket-Version: 13
+2022-08-13 18:02:37,215 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 18:02:37,215 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 18:02:37,216 > HTTP/1.1 101 Switching Protocols
+2022-08-13 18:02:37,216 > Upgrade: websocket
+2022-08-13 18:02:37,216 > Connection: Upgrade
+2022-08-13 18:02:37,216 > Sec-WebSocket-Accept: +2j9llTB0ezHVItOYVzpOeUF980=
+2022-08-13 18:02:37,217 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 18:02:37,217 > Date: Sat, 13 Aug 2022 22:02:37 GMT
+2022-08-13 18:02:37,217 > Server: Python/3.9 websockets/10.3
+2022-08-13 18:02:37,217 connection open
+2022-08-13 18:02:37,217 = connection is OPEN
+2022-08-13 18:02:37,217 > TEXT 'OK' [2 bytes]
+2022-08-13 18:02:40,710 < TEXT '1' [1 byte]
+2022-08-13 18:02:41,957 < TEXT '5' [1 byte]
+2022-08-13 18:02:41,957 > TEXT 'Your result is [0, 1, 1, 2, 3]' [30 bytes]
+2022-08-13 18:02:41,957 > TEXT 'OK' [2 bytes]
+2022-08-13 18:02:57,219 % sending keepalive ping
+2022-08-13 18:02:57,220 > PING 1c df 62 f5 [binary, 4 bytes]
+2022-08-13 18:02:59,872 < TEXT 'r' [1 byte]
+2022-08-13 18:03:00,672 < TEXT 'e' [1 byte]
+2022-08-13 18:03:00,672 > TEXT 'Error: The numbers should be positive integers' [46 bytes]
+2022-08-13 18:03:00,672 > TEXT 'OK' [2 bytes]
+2022-08-13 18:03:00,673 < PONG 1c df 62 f5 [binary, 4 bytes]
+2022-08-13 18:03:00,673 < PING dc 1a ce 17 [binary, 4 bytes]
+2022-08-13 18:03:00,673 > PONG dc 1a ce 17 [binary, 4 bytes]
+2022-08-13 18:03:03,166 < TEXT '4' [1 byte]
+2022-08-13 18:03:04,071 < TEXT '7' [1 byte]
+2022-08-13 18:03:04,072 > TEXT 'Your result is [2, 3, 5, 8]' [27 bytes]
+2022-08-13 18:03:04,072 > TEXT 'OK' [2 bytes]
+2022-08-13 18:03:17,224 % sending keepalive ping
+2022-08-13 18:03:17,224 > PING 3f ca 2f 7e [binary, 4 bytes]
+2022-08-13 18:03:17,508 ! failing connection with code 1006
+2022-08-13 18:03:17,508 = connection is CLOSED
+2022-08-13 18:03:17,508 x half-closing TCP connection
+2022-08-13 18:03:17,509 connection closed
+2022-08-13 18:03:18,901 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:10:51,657 Debug logging test...
+2022-08-13 18:10:51,705 Using selector: KqueueSelector
+2022-08-13 18:10:51,721 server listening on [::1]:7890
+2022-08-13 18:10:51,721 server listening on 127.0.0.1:7890
+2022-08-13 18:12:16,760 = connection is CONNECTING
+2022-08-13 18:12:16,766 < GET / HTTP/1.1
+2022-08-13 18:12:16,767 < Host: 127.0.0.1:7890
+2022-08-13 18:12:16,767 < Upgrade: websocket
+2022-08-13 18:12:16,767 < Connection: Upgrade
+2022-08-13 18:12:16,767 < Sec-WebSocket-Key: 4PxsB1kxi5/nCT2fRtz1HQ==
+2022-08-13 18:12:16,767 < Sec-WebSocket-Version: 13
+2022-08-13 18:12:16,767 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 18:12:16,767 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 18:12:16,777 > HTTP/1.1 101 Switching Protocols
+2022-08-13 18:12:16,777 > Upgrade: websocket
+2022-08-13 18:12:16,777 > Connection: Upgrade
+2022-08-13 18:12:16,777 > Sec-WebSocket-Accept: iwUrDIIdJiTyTe9Y7ulIRbvNHRQ=
+2022-08-13 18:12:16,777 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 18:12:16,777 > Date: Sat, 13 Aug 2022 22:12:16 GMT
+2022-08-13 18:12:16,777 > Server: Python/3.9 websockets/10.3
+2022-08-13 18:12:16,778 connection open
+2022-08-13 18:12:16,778 = connection is OPEN
+2022-08-13 18:12:16,778 > TEXT 'OK' [2 bytes]
+2022-08-13 18:12:36,785 % sending keepalive ping
+2022-08-13 18:12:36,787 > PING f6 4c ea cd [binary, 4 bytes]
+2022-08-13 18:12:56,790 % sending keepalive ping
+2022-08-13 18:12:56,791 > PING 0a e0 2e cf [binary, 4 bytes]
+2022-08-13 18:13:16,791 % sending keepalive ping
+2022-08-13 18:13:16,793 > PING a7 0c 15 29 [binary, 4 bytes]
+2022-08-13 18:13:36,796 % sending keepalive ping
+2022-08-13 18:13:36,798 > PING 88 47 be 75 [binary, 4 bytes]
+2022-08-13 18:13:56,803 % sending keepalive ping
+2022-08-13 18:13:56,803 > PING '燦K' [text, 4 bytes]
+2022-08-13 18:14:16,808 % sending keepalive ping
+2022-08-13 18:14:16,808 > PING d8 86 2b a4 [binary, 4 bytes]
+2022-08-13 18:14:36,812 % sending keepalive ping
+2022-08-13 18:14:36,815 > PING b2 fa 77 a7 [binary, 4 bytes]
+2022-08-13 18:14:56,816 % sending keepalive ping
+2022-08-13 18:14:56,818 > PING d3 73 08 27 [binary, 4 bytes]
+2022-08-13 18:15:16,822 % sending keepalive ping
+2022-08-13 18:15:16,824 > PING 2d e0 51 95 [binary, 4 bytes]
+2022-08-13 18:15:36,824 % sending keepalive ping
+2022-08-13 18:15:36,824 > PING ff 1e 7f 7d [binary, 4 bytes]
+2022-08-13 18:15:56,828 % sending keepalive ping
+2022-08-13 18:15:56,828 > PING 38 5c 3c c9 [binary, 4 bytes]
+2022-08-13 18:16:16,835 % sending keepalive ping
+2022-08-13 18:16:16,837 > PING 7a 9d 6c 66 [binary, 4 bytes]
+2022-08-13 18:16:36,846 % sending keepalive ping
+2022-08-13 18:16:36,848 > PING 8f 33 1c 8e [binary, 4 bytes]
+2022-08-13 18:16:56,852 % sending keepalive ping
+2022-08-13 18:16:56,852 > PING 59 de 46 a6 [binary, 4 bytes]
+2022-08-13 18:17:16,857 % sending keepalive ping
+2022-08-13 18:17:16,858 > PING ef 7a 38 ab [binary, 4 bytes]
+2022-08-13 18:17:36,863 % sending keepalive ping
+2022-08-13 18:17:36,865 > PING 3a f8 62 99 [binary, 4 bytes]
+2022-08-13 18:17:56,871 % sending keepalive ping
+2022-08-13 18:17:56,871 > PING 87 fd 5a 89 [binary, 4 bytes]
+2022-08-13 18:18:16,874 % sending keepalive ping
+2022-08-13 18:18:16,877 > PING a8 c8 4e 32 [binary, 4 bytes]
+2022-08-13 18:18:36,886 % sending keepalive ping
+2022-08-13 18:18:36,888 > PING ef 9c 45 2e [binary, 4 bytes]
+2022-08-13 18:18:56,893 % sending keepalive ping
+2022-08-13 18:18:56,894 > PING 63 00 a0 e7 [binary, 4 bytes]
+2022-08-13 18:19:16,896 % sending keepalive ping
+2022-08-13 18:19:16,896 > PING c7 a0 af 61 [binary, 4 bytes]
+2022-08-13 18:19:36,904 % sending keepalive ping
+2022-08-13 18:19:36,907 > PING 6d bd 82 0c [binary, 4 bytes]
+2022-08-13 18:19:56,912 % sending keepalive ping
+2022-08-13 18:19:56,917 > PING 88 4e 58 04 [binary, 4 bytes]
+2022-08-13 18:20:16,920 % sending keepalive ping
+2022-08-13 18:20:16,923 > PING 'U/*;' [text, 4 bytes]
+2022-08-13 18:20:36,929 % sending keepalive ping
+2022-08-13 18:20:36,930 > PING a7 01 bf 77 [binary, 4 bytes]
+2022-08-13 18:20:56,935 % sending keepalive ping
+2022-08-13 18:20:56,936 > PING a4 db 0c ca [binary, 4 bytes]
+2022-08-13 18:21:16,937 % sending keepalive ping
+2022-08-13 18:21:16,938 > PING fd 84 7b 73 [binary, 4 bytes]
+2022-08-13 18:21:36,941 % sending keepalive ping
+2022-08-13 18:21:36,944 > PING 51 5f 41 ba [binary, 4 bytes]
+2022-08-13 18:21:56,949 % sending keepalive ping
+2022-08-13 18:21:56,950 > PING 8c ee 25 4a [binary, 4 bytes]
+2022-08-13 18:22:16,954 % sending keepalive ping
+2022-08-13 18:22:16,954 > PING 9e 22 c6 61 [binary, 4 bytes]
+2022-08-13 18:22:36,957 % sending keepalive ping
+2022-08-13 18:22:36,957 > PING 9a 01 35 12 [binary, 4 bytes]
+2022-08-13 18:22:56,962 % sending keepalive ping
+2022-08-13 18:22:56,962 > PING 61 33 9f ec [binary, 4 bytes]
+2022-08-13 18:23:16,967 % sending keepalive ping
+2022-08-13 18:23:16,968 > PING 4c 68 e9 de [binary, 4 bytes]
+2022-08-13 18:23:36,971 % sending keepalive ping
+2022-08-13 18:23:36,972 > PING 92 df ce 37 [binary, 4 bytes]
+2022-08-13 18:23:56,975 % sending keepalive ping
+2022-08-13 18:23:56,975 > PING 'ȥD\r' [text, 4 bytes]
+2022-08-13 18:24:16,975 % sending keepalive ping
+2022-08-13 18:24:16,976 > PING dd 47 74 d3 [binary, 4 bytes]
+2022-08-13 18:24:36,976 % sending keepalive ping
+2022-08-13 18:24:36,977 > PING '\x05Yŝ' [text, 4 bytes]
+2022-08-13 18:24:56,981 % sending keepalive ping
+2022-08-13 18:24:56,981 > PING '7^A\x1b' [text, 4 bytes]
+2022-08-13 18:25:16,985 % sending keepalive ping
+2022-08-13 18:25:16,986 > PING f1 df ed 64 [binary, 4 bytes]
+2022-08-13 18:25:29,550 ! failing connection with code 1006
+2022-08-13 18:25:29,553 = connection is CLOSED
+2022-08-13 18:25:29,557 x half-closing TCP connection
+2022-08-13 18:25:29,566 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,585 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,585 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,585 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,586 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,587 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,587 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,587 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,587 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,587 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,588 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,588 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,588 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,588 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,588 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,589 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,590 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,590 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,590 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,590 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,590 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,591 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,592 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:25:29,592 connection closed
+2022-08-13 18:25:29,762 = connection is CONNECTING
+2022-08-13 18:25:29,765 < GET / HTTP/1.1
+2022-08-13 18:25:29,765 < Host: 127.0.0.1:7890
+2022-08-13 18:25:29,765 < Upgrade: websocket
+2022-08-13 18:25:29,766 < Connection: Upgrade
+2022-08-13 18:25:29,766 < Sec-WebSocket-Key: S6q6x7Iy4hMc4q/fFtISNg==
+2022-08-13 18:25:29,766 < Sec-WebSocket-Version: 13
+2022-08-13 18:25:29,766 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 18:25:29,766 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 18:25:29,767 > HTTP/1.1 101 Switching Protocols
+2022-08-13 18:25:29,767 > Upgrade: websocket
+2022-08-13 18:25:29,767 > Connection: Upgrade
+2022-08-13 18:25:29,767 > Sec-WebSocket-Accept: k7j66btryliwQVkHjLAjnd8sExQ=
+2022-08-13 18:25:29,767 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 18:25:29,767 > Date: Sat, 13 Aug 2022 22:25:29 GMT
+2022-08-13 18:25:29,767 > Server: Python/3.9 websockets/10.3
+2022-08-13 18:25:29,768 connection open
+2022-08-13 18:25:29,768 = connection is OPEN
+2022-08-13 18:25:29,768 > TEXT 'OK' [2 bytes]
+2022-08-13 18:25:49,768 % sending keepalive ping
+2022-08-13 18:25:49,768 > PING 70 a1 10 bf [binary, 4 bytes]
+2022-08-13 18:25:55,428 = connection is CONNECTING
+2022-08-13 18:25:55,430 < GET / HTTP/1.1
+2022-08-13 18:25:55,431 < Host: 127.0.0.1:7890
+2022-08-13 18:25:55,431 < Upgrade: websocket
+2022-08-13 18:25:55,431 < Connection: Upgrade
+2022-08-13 18:25:55,431 < Sec-WebSocket-Key: p2e+f71FexhTxrimLNgUzQ==
+2022-08-13 18:25:55,431 < Sec-WebSocket-Version: 13
+2022-08-13 18:25:55,431 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-13 18:25:55,432 < User-Agent: Python/3.9 websockets/10.3
+2022-08-13 18:25:55,432 > HTTP/1.1 101 Switching Protocols
+2022-08-13 18:25:55,432 > Upgrade: websocket
+2022-08-13 18:25:55,432 > Connection: Upgrade
+2022-08-13 18:25:55,432 > Sec-WebSocket-Accept: J0gGUM/JvFrwWRCDs2twdxq5coM=
+2022-08-13 18:25:55,432 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-13 18:25:55,432 > Date: Sat, 13 Aug 2022 22:25:55 GMT
+2022-08-13 18:25:55,432 > Server: Python/3.9 websockets/10.3
+2022-08-13 18:25:55,432 connection open
+2022-08-13 18:25:55,432 = connection is OPEN
+2022-08-13 18:25:55,432 > TEXT 'OK' [2 bytes]
+2022-08-13 18:26:06,645 < TEXT '1' [1 byte]
+2022-08-13 18:26:08,395 < TEXT '2' [1 byte]
+2022-08-13 18:26:08,395 < PONG 70 a1 10 bf [binary, 4 bytes]
+2022-08-13 18:26:08,396 < PING f4 f3 2b 50 [binary, 4 bytes]
+2022-08-13 18:26:08,397 > PONG f4 f3 2b 50 [binary, 4 bytes]
+2022-08-13 18:26:08,399 > TEXT 'Your result is [0, 1]' [21 bytes]
+2022-08-13 18:26:08,401 > TEXT 'OK' [2 bytes]
+2022-08-13 18:26:09,773 % sending keepalive ping
+2022-08-13 18:26:09,773 > PING f6 39 5a c9 [binary, 4 bytes]
+2022-08-13 18:26:11,571 < TEXT '2' [1 byte]
+2022-08-13 18:26:12,355 < TEXT '3' [1 byte]
+2022-08-13 18:26:12,355 > TEXT 'Your result is [1, 1]' [21 bytes]
+2022-08-13 18:26:12,356 > TEXT 'OK' [2 bytes]
+2022-08-13 18:26:15,437 % sending keepalive ping
+2022-08-13 18:26:15,437 > PING b2 f0 bd e1 [binary, 4 bytes]
+2022-08-13 18:26:16,403 < TEXT '1' [1 byte]
+2022-08-13 18:26:20,143 < TEXT '3' [1 byte]
+2022-08-13 18:26:23,111 < TEXT '4' [1 byte]
+2022-08-13 18:26:23,112 > TEXT 'Your result is [1, 2]' [21 bytes]
+2022-08-13 18:26:23,112 > TEXT 'OK' [2 bytes]
+2022-08-13 18:26:23,114 < PONG f6 39 5a c9 [binary, 4 bytes]
+2022-08-13 18:26:25,560 < TEXT '5' [1 byte]
+2022-08-13 18:26:25,560 > TEXT 'Your result is [0, 1, 1, 2, 3]' [30 bytes]
+2022-08-13 18:26:25,561 > TEXT 'OK' [2 bytes]
+2022-08-13 18:26:25,563 < PONG b2 f0 bd e1 [binary, 4 bytes]
+2022-08-13 18:26:25,565 < PING bb 97 94 ea [binary, 4 bytes]
+2022-08-13 18:26:25,565 > PONG bb 97 94 ea [binary, 4 bytes]
+2022-08-13 18:26:29,773 % sending keepalive ping
+2022-08-13 18:26:29,774 > PING 39 ac 70 84 [binary, 4 bytes]
+2022-08-13 18:26:35,441 % sending keepalive ping
+2022-08-13 18:26:35,442 > PING f7 ae 63 a2 [binary, 4 bytes]
+2022-08-13 18:26:49,778 % sending keepalive ping
+2022-08-13 18:26:49,779 > PING 41 c9 7e d2 [binary, 4 bytes]
+2022-08-13 18:26:55,442 % sending keepalive ping
+2022-08-13 18:26:55,443 > PING 50 b9 9f 6e [binary, 4 bytes]
+2022-08-13 18:27:09,782 % sending keepalive ping
+2022-08-13 18:27:09,784 > PING 75 dc 42 d1 [binary, 4 bytes]
+2022-08-13 18:27:15,446 % sending keepalive ping
+2022-08-13 18:27:15,447 > PING e5 8b f9 ad [binary, 4 bytes]
+2022-08-13 18:27:29,787 % sending keepalive ping
+2022-08-13 18:27:29,789 > PING f6 08 0a 80 [binary, 4 bytes]
+2022-08-13 18:27:35,450 % sending keepalive ping
+2022-08-13 18:27:35,451 > PING 8f ed 4d 70 [binary, 4 bytes]
+2022-08-13 18:27:49,793 % sending keepalive ping
+2022-08-13 18:27:49,794 > PING c3 02 4e 80 [binary, 4 bytes]
+2022-08-13 18:27:55,453 % sending keepalive ping
+2022-08-13 18:27:55,453 > PING 4e c6 ef b5 [binary, 4 bytes]
+2022-08-13 18:28:09,798 % sending keepalive ping
+2022-08-13 18:28:09,798 > PING a1 5d 9d a8 [binary, 4 bytes]
+2022-08-13 18:28:15,455 % sending keepalive ping
+2022-08-13 18:28:15,456 > PING 9d 57 0e 23 [binary, 4 bytes]
+2022-08-13 18:28:29,802 % sending keepalive ping
+2022-08-13 18:28:29,802 > PING 4d 73 b0 ae [binary, 4 bytes]
+2022-08-13 18:28:35,459 % sending keepalive ping
+2022-08-13 18:28:35,460 > PING 5c ea 3f fc [binary, 4 bytes]
+2022-08-13 18:28:49,807 % sending keepalive ping
+2022-08-13 18:28:49,807 > PING d7 6f e0 d4 [binary, 4 bytes]
+2022-08-13 18:28:55,465 % sending keepalive ping
+2022-08-13 18:28:55,465 > PING '\x17\x1d\x16\x1b' [text, 4 bytes]
+2022-08-13 18:29:09,811 % sending keepalive ping
+2022-08-13 18:29:09,811 > PING ac 4e 91 b2 [binary, 4 bytes]
+2022-08-13 18:29:15,470 % sending keepalive ping
+2022-08-13 18:29:15,472 > PING 18 c4 5a f9 [binary, 4 bytes]
+2022-08-13 18:29:29,815 % sending keepalive ping
+2022-08-13 18:29:29,816 > PING a5 99 fc d2 [binary, 4 bytes]
+2022-08-13 18:29:35,474 % sending keepalive ping
+2022-08-13 18:29:35,475 > PING 63 d7 ff 02 [binary, 4 bytes]
+2022-08-13 18:29:49,819 % sending keepalive ping
+2022-08-13 18:29:49,821 > PING 0b e5 a2 f9 [binary, 4 bytes]
+2022-08-13 18:29:55,477 % sending keepalive ping
+2022-08-13 18:29:55,477 > PING 5b b0 5c 59 [binary, 4 bytes]
+2022-08-13 18:30:09,825 % sending keepalive ping
+2022-08-13 18:30:09,827 > PING 43 6b ed 12 [binary, 4 bytes]
+2022-08-13 18:30:15,479 % sending keepalive ping
+2022-08-13 18:30:15,479 > PING e1 e8 13 7b [binary, 4 bytes]
+2022-08-13 18:30:29,831 % sending keepalive ping
+2022-08-13 18:30:29,833 > PING a0 bb b9 ac [binary, 4 bytes]
+2022-08-13 18:30:35,481 % sending keepalive ping
+2022-08-13 18:30:35,481 > PING 22 a7 6d ef [binary, 4 bytes]
+2022-08-13 18:30:49,838 % sending keepalive ping
+2022-08-13 18:30:49,840 > PING c9 2e 62 2d [binary, 4 bytes]
+2022-08-13 18:30:55,483 % sending keepalive ping
+2022-08-13 18:30:55,484 > PING 64 8b 08 b0 [binary, 4 bytes]
+2022-08-13 18:31:09,840 % sending keepalive ping
+2022-08-13 18:31:09,842 > PING 53 e7 7b 7a [binary, 4 bytes]
+2022-08-13 18:31:15,488 % sending keepalive ping
+2022-08-13 18:31:15,488 > PING 19 30 a9 a5 [binary, 4 bytes]
+2022-08-13 18:31:29,843 % sending keepalive ping
+2022-08-13 18:31:29,844 > PING 16 90 81 16 [binary, 4 bytes]
+2022-08-13 18:31:35,492 % sending keepalive ping
+2022-08-13 18:31:35,494 > PING 4b 6a 0d df [binary, 4 bytes]
+2022-08-13 18:31:49,844 % sending keepalive ping
+2022-08-13 18:31:49,846 > PING 87 09 88 cc [binary, 4 bytes]
+2022-08-13 18:31:55,497 % sending keepalive ping
+2022-08-13 18:31:55,498 > PING e2 56 53 6a [binary, 4 bytes]
+2022-08-13 18:32:09,849 % sending keepalive ping
+2022-08-13 18:32:09,850 > PING db 52 26 14 [binary, 4 bytes]
+2022-08-13 18:32:15,502 % sending keepalive ping
+2022-08-13 18:32:15,503 > PING c3 17 fa 33 [binary, 4 bytes]
+2022-08-13 18:32:29,854 % sending keepalive ping
+2022-08-13 18:32:29,854 > PING 08 d2 27 2f [binary, 4 bytes]
+2022-08-13 18:32:35,507 % sending keepalive ping
+2022-08-13 18:32:35,507 > PING ad 0c c2 cf [binary, 4 bytes]
+2022-08-13 18:32:49,859 % sending keepalive ping
+2022-08-13 18:32:49,859 > PING 6d f8 c8 98 [binary, 4 bytes]
+2022-08-13 18:32:55,511 % sending keepalive ping
+2022-08-13 18:32:55,512 > PING b0 5c 08 f7 [binary, 4 bytes]
+2022-08-13 18:33:09,863 % sending keepalive ping
+2022-08-13 18:33:09,863 > PING be 43 23 98 [binary, 4 bytes]
+2022-08-13 18:33:15,517 % sending keepalive ping
+2022-08-13 18:33:15,517 > PING c4 6b cf cb [binary, 4 bytes]
+2022-08-13 18:33:29,871 % sending keepalive ping
+2022-08-13 18:33:29,874 > PING e7 8a d3 29 [binary, 4 bytes]
+2022-08-13 18:33:35,520 % sending keepalive ping
+2022-08-13 18:33:35,521 > PING 8e 39 b4 58 [binary, 4 bytes]
+2022-08-13 18:33:49,884 % sending keepalive ping
+2022-08-13 18:33:49,885 > PING 9b cf 46 df [binary, 4 bytes]
+2022-08-13 18:33:55,521 % sending keepalive ping
+2022-08-13 18:33:55,521 > PING e2 8c 13 d0 [binary, 4 bytes]
+2022-08-13 18:34:09,889 % sending keepalive ping
+2022-08-13 18:34:09,891 > PING c3 89 39 d9 [binary, 4 bytes]
+2022-08-13 18:34:15,526 % sending keepalive ping
+2022-08-13 18:34:15,526 > PING 'Gw\x188' [text, 4 bytes]
+2022-08-13 18:34:29,893 % sending keepalive ping
+2022-08-13 18:34:29,895 > PING b7 8a 80 d0 [binary, 4 bytes]
+2022-08-13 18:34:35,531 % sending keepalive ping
+2022-08-13 18:34:35,531 > PING aa 48 09 22 [binary, 4 bytes]
+2022-08-13 18:34:49,898 % sending keepalive ping
+2022-08-13 18:34:49,898 > PING cd 05 b3 fa [binary, 4 bytes]
+2022-08-13 18:34:54,854 < TEXT '1' [1 byte]
+2022-08-13 18:34:55,535 % sending keepalive ping
+2022-08-13 18:34:55,535 > PING 11 2e 93 74 [binary, 4 bytes]
+2022-08-13 18:34:58,522 < TEXT '5' [1 byte]
+2022-08-13 18:35:02,731 < TEXT '4' [1 byte]
+2022-08-13 18:35:02,731 > TEXT 'Your result is [0, 1, 1, 2]' [27 bytes]
+2022-08-13 18:35:02,732 > TEXT 'OK' [2 bytes]
+2022-08-13 18:35:02,734 < PONG 39 ac 70 84 [binary, 4 bytes]
+2022-08-13 18:35:02,735 < PONG 41 c9 7e d2 [binary, 4 bytes]
+2022-08-13 18:35:02,735 < PONG 75 dc 42 d1 [binary, 4 bytes]
+2022-08-13 18:35:02,735 < PONG f6 08 0a 80 [binary, 4 bytes]
+2022-08-13 18:35:02,735 < PONG c3 02 4e 80 [binary, 4 bytes]
+2022-08-13 18:35:02,736 < PONG a1 5d 9d a8 [binary, 4 bytes]
+2022-08-13 18:35:02,736 < PONG 4d 73 b0 ae [binary, 4 bytes]
+2022-08-13 18:35:02,736 < PONG d7 6f e0 d4 [binary, 4 bytes]
+2022-08-13 18:35:02,736 < PONG ac 4e 91 b2 [binary, 4 bytes]
+2022-08-13 18:35:02,736 < PONG a5 99 fc d2 [binary, 4 bytes]
+2022-08-13 18:35:02,737 < PONG 0b e5 a2 f9 [binary, 4 bytes]
+2022-08-13 18:35:02,737 < PONG 43 6b ed 12 [binary, 4 bytes]
+2022-08-13 18:35:02,737 < PONG a0 bb b9 ac [binary, 4 bytes]
+2022-08-13 18:35:02,737 < PONG c9 2e 62 2d [binary, 4 bytes]
+2022-08-13 18:35:02,738 < PONG 53 e7 7b 7a [binary, 4 bytes]
+2022-08-13 18:35:02,738 < PONG 16 90 81 16 [binary, 4 bytes]
+2022-08-13 18:35:02,738 < PONG 87 09 88 cc [binary, 4 bytes]
+2022-08-13 18:35:02,738 < PONG db 52 26 14 [binary, 4 bytes]
+2022-08-13 18:35:02,739 < PONG 08 d2 27 2f [binary, 4 bytes]
+2022-08-13 18:35:02,739 < PONG 6d f8 c8 98 [binary, 4 bytes]
+2022-08-13 18:35:02,739 < PONG be 43 23 98 [binary, 4 bytes]
+2022-08-13 18:35:02,739 < PONG e7 8a d3 29 [binary, 4 bytes]
+2022-08-13 18:35:02,739 < PONG 9b cf 46 df [binary, 4 bytes]
+2022-08-13 18:35:02,740 < PONG c3 89 39 d9 [binary, 4 bytes]
+2022-08-13 18:35:02,740 < PONG b7 8a 80 d0 [binary, 4 bytes]
+2022-08-13 18:35:02,740 < PONG cd 05 b3 fa [binary, 4 bytes]
+2022-08-13 18:35:02,741 < PING f5 0a 41 ab [binary, 4 bytes]
+2022-08-13 18:35:02,741 > PONG f5 0a 41 ab [binary, 4 bytes]
+2022-08-13 18:35:06,555 < TEXT '10' [2 bytes]
+2022-08-13 18:35:06,555 > TEXT 'Your result is [3, 5, 8, 13, 21, 34]' [36 bytes]
+2022-08-13 18:35:06,555 > TEXT 'OK' [2 bytes]
+2022-08-13 18:35:06,557 < PONG f7 ae 63 a2 [binary, 4 bytes]
+2022-08-13 18:35:06,558 < PONG 50 b9 9f 6e [binary, 4 bytes]
+2022-08-13 18:35:06,558 < PONG e5 8b f9 ad [binary, 4 bytes]
+2022-08-13 18:35:06,558 < PONG 8f ed 4d 70 [binary, 4 bytes]
+2022-08-13 18:35:06,559 < PONG 4e c6 ef b5 [binary, 4 bytes]
+2022-08-13 18:35:06,559 < PONG 9d 57 0e 23 [binary, 4 bytes]
+2022-08-13 18:35:06,560 < PONG 5c ea 3f fc [binary, 4 bytes]
+2022-08-13 18:35:06,560 < PONG '\x17\x1d\x16\x1b' [text, 4 bytes]
+2022-08-13 18:35:06,560 < PONG 18 c4 5a f9 [binary, 4 bytes]
+2022-08-13 18:35:06,561 < PONG 63 d7 ff 02 [binary, 4 bytes]
+2022-08-13 18:35:06,561 < PONG 5b b0 5c 59 [binary, 4 bytes]
+2022-08-13 18:35:06,561 < PONG e1 e8 13 7b [binary, 4 bytes]
+2022-08-13 18:35:06,561 < PONG 22 a7 6d ef [binary, 4 bytes]
+2022-08-13 18:35:06,562 < PONG 64 8b 08 b0 [binary, 4 bytes]
+2022-08-13 18:35:06,562 < PONG 19 30 a9 a5 [binary, 4 bytes]
+2022-08-13 18:35:06,562 < PONG 4b 6a 0d df [binary, 4 bytes]
+2022-08-13 18:35:06,563 < PONG e2 56 53 6a [binary, 4 bytes]
+2022-08-13 18:35:06,563 < PONG c3 17 fa 33 [binary, 4 bytes]
+2022-08-13 18:35:06,563 < PONG ad 0c c2 cf [binary, 4 bytes]
+2022-08-13 18:35:06,563 < PONG b0 5c 08 f7 [binary, 4 bytes]
+2022-08-13 18:35:06,564 < PONG c4 6b cf cb [binary, 4 bytes]
+2022-08-13 18:35:06,564 < PONG 8e 39 b4 58 [binary, 4 bytes]
+2022-08-13 18:35:06,564 < PONG e2 8c 13 d0 [binary, 4 bytes]
+2022-08-13 18:35:06,565 < PONG 'Gw\x188' [text, 4 bytes]
+2022-08-13 18:35:06,565 < PONG aa 48 09 22 [binary, 4 bytes]
+2022-08-13 18:35:06,565 < PONG 11 2e 93 74 [binary, 4 bytes]
+2022-08-13 18:35:06,566 < PING ']\x1aQS' [text, 4 bytes]
+2022-08-13 18:35:06,566 > PONG ']\x1aQS' [text, 4 bytes]
+2022-08-13 18:35:09,903 % sending keepalive ping
+2022-08-13 18:35:09,903 > PING 38 e7 a3 7f [binary, 4 bytes]
+2022-08-13 18:35:15,539 % sending keepalive ping
+2022-08-13 18:35:15,540 > PING '-YfY' [text, 4 bytes]
+2022-08-13 18:35:29,907 % sending keepalive ping
+2022-08-13 18:35:29,907 > PING 36 e0 57 ed [binary, 4 bytes]
+2022-08-13 18:35:35,541 % sending keepalive ping
+2022-08-13 18:35:35,541 > PING 37 c5 59 e3 [binary, 4 bytes]
+2022-08-13 18:35:49,912 % sending keepalive ping
+2022-08-13 18:35:49,913 > PING '\x18vjM' [text, 4 bytes]
+2022-08-13 18:35:55,544 % sending keepalive ping
+2022-08-13 18:35:55,544 > PING 83 dc ea de [binary, 4 bytes]
+2022-08-13 18:36:09,917 % sending keepalive ping
+2022-08-13 18:36:09,917 > PING '\x14\x04\x00g' [text, 4 bytes]
+2022-08-13 18:36:15,549 % sending keepalive ping
+2022-08-13 18:36:15,549 > PING fa 81 fa 57 [binary, 4 bytes]
+2022-08-13 18:36:29,921 % sending keepalive ping
+2022-08-13 18:36:29,922 > PING '\x02{Zu' [text, 4 bytes]
+2022-08-13 18:36:35,554 % sending keepalive ping
+2022-08-13 18:36:35,554 > PING 11 24 e7 b9 [binary, 4 bytes]
+2022-08-13 18:36:49,925 % sending keepalive ping
+2022-08-13 18:36:49,925 > PING 87 e2 b4 5e [binary, 4 bytes]
+2022-08-13 18:36:55,558 % sending keepalive ping
+2022-08-13 18:36:55,559 > PING b9 23 b4 40 [binary, 4 bytes]
+2022-08-13 18:37:09,930 % sending keepalive ping
+2022-08-13 18:37:09,930 > PING 73 32 5c f0 [binary, 4 bytes]
+2022-08-13 18:37:15,563 % sending keepalive ping
+2022-08-13 18:37:15,564 > PING 65 5d c4 e6 [binary, 4 bytes]
+2022-08-13 18:37:29,932 % sending keepalive ping
+2022-08-13 18:37:29,933 > PING dd 42 6c 7a [binary, 4 bytes]
+2022-08-13 18:37:35,568 % sending keepalive ping
+2022-08-13 18:37:35,568 > PING 84 66 e3 25 [binary, 4 bytes]
+2022-08-13 18:37:49,935 % sending keepalive ping
+2022-08-13 18:37:49,936 > PING 99 1c af e8 [binary, 4 bytes]
+2022-08-13 18:37:55,569 % sending keepalive ping
+2022-08-13 18:37:55,569 > PING 71 20 a8 b6 [binary, 4 bytes]
+2022-08-13 18:38:09,941 % sending keepalive ping
+2022-08-13 18:38:09,941 > PING ec 22 ad 67 [binary, 4 bytes]
+2022-08-13 18:38:15,573 % sending keepalive ping
+2022-08-13 18:38:15,573 > PING fe 53 58 37 [binary, 4 bytes]
+2022-08-13 18:38:29,945 % sending keepalive ping
+2022-08-13 18:38:29,946 > PING ec 61 cb 21 [binary, 4 bytes]
+2022-08-13 18:38:35,577 % sending keepalive ping
+2022-08-13 18:38:35,577 > PING f9 c5 fa be [binary, 4 bytes]
+2022-08-13 18:38:49,948 % sending keepalive ping
+2022-08-13 18:38:49,948 > PING 12 13 8c 4b [binary, 4 bytes]
+2022-08-13 18:38:55,582 % sending keepalive ping
+2022-08-13 18:38:55,582 > PING 52 37 6c 9a [binary, 4 bytes]
+2022-08-13 18:39:09,953 % sending keepalive ping
+2022-08-13 18:39:09,953 > PING 6d a8 be 01 [binary, 4 bytes]
+2022-08-13 18:39:15,586 % sending keepalive ping
+2022-08-13 18:39:15,587 > PING 8b ae 0d a5 [binary, 4 bytes]
+2022-08-13 18:39:29,956 % sending keepalive ping
+2022-08-13 18:39:29,959 > PING 'SZ%\x18' [text, 4 bytes]
+2022-08-13 18:39:35,591 % sending keepalive ping
+2022-08-13 18:39:35,591 > PING "\x14'\x1d\x12" [text, 4 bytes]
+2022-08-13 18:39:49,962 % sending keepalive ping
+2022-08-13 18:39:49,964 > PING c4 24 27 46 [binary, 4 bytes]
+2022-08-13 18:39:55,591 % sending keepalive ping
+2022-08-13 18:39:55,592 > PING 79 59 db d7 [binary, 4 bytes]
+2022-08-13 18:40:09,967 % sending keepalive ping
+2022-08-13 18:40:09,967 > PING 7a b9 f3 38 [binary, 4 bytes]
+2022-08-13 18:40:15,594 % sending keepalive ping
+2022-08-13 18:40:15,596 > PING fa 33 47 91 [binary, 4 bytes]
+2022-08-13 18:40:29,970 % sending keepalive ping
+2022-08-13 18:40:29,971 > PING 28 48 0b ca [binary, 4 bytes]
+2022-08-13 18:40:35,601 % sending keepalive ping
+2022-08-13 18:40:35,601 > PING cb 5d e6 cd [binary, 4 bytes]
+2022-08-13 18:40:49,976 % sending keepalive ping
+2022-08-13 18:40:49,976 > PING 35 4b d1 e8 [binary, 4 bytes]
+2022-08-13 18:40:55,606 % sending keepalive ping
+2022-08-13 18:40:55,606 > PING f1 da 46 b3 [binary, 4 bytes]
+2022-08-13 18:41:09,979 % sending keepalive ping
+2022-08-13 18:41:09,979 > PING c0 4d d3 4b [binary, 4 bytes]
+2022-08-13 18:41:15,611 % sending keepalive ping
+2022-08-13 18:41:15,611 > PING c8 44 1c 87 [binary, 4 bytes]
+2022-08-13 18:41:29,983 % sending keepalive ping
+2022-08-13 18:41:29,986 > PING 66 6b c9 23 [binary, 4 bytes]
+2022-08-13 18:41:35,615 % sending keepalive ping
+2022-08-13 18:41:35,616 > PING 58 31 8a 92 [binary, 4 bytes]
+2022-08-13 18:41:49,988 % sending keepalive ping
+2022-08-13 18:41:49,988 > PING 55 d1 0b f0 [binary, 4 bytes]
+2022-08-13 18:41:55,620 % sending keepalive ping
+2022-08-13 18:41:55,620 > PING c7 3e eb fa [binary, 4 bytes]
+2022-08-13 18:42:09,991 % sending keepalive ping
+2022-08-13 18:42:09,991 > PING 0e 19 ce 2a [binary, 4 bytes]
+2022-08-13 18:42:15,622 % sending keepalive ping
+2022-08-13 18:42:15,622 > PING 2f 05 9b f6 [binary, 4 bytes]
+2022-08-13 18:42:24,609 ! failing connection with code 1006
+2022-08-13 18:42:24,612 = connection is CLOSED
+2022-08-13 18:42:24,612 x half-closing TCP connection
+2022-08-13 18:42:24,618 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,620 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,620 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,620 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,621 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,621 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,622 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,622 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,622 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,622 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,623 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,623 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,623 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,624 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,624 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,624 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,626 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,627 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,627 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,627 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,627 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:24,628 connection closed
+2022-08-13 18:42:26,053 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-13 18:42:26,053 Future exception was never retrieved
+future: <Future finished exception=ConnectionClosedError(None, None, None)>
+Traceback (most recent call last):
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 945, in transfer_data
+    message = await self.read_message()
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1015, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1090, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1145, in read_frame
+    frame = await Frame.read(
+  File "/Users/zhiyanqu/PycharmProjects/fibonacci/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
