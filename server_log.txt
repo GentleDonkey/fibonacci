@@ -2193,3 +2193,89 @@ asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected by
 The above exception was the direct cause of the following exception:
 
 websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-08-14 15:30:38,094 Debug logging test...
+2022-08-14 15:30:38,151 Using selector: KqueueSelector
+2022-08-14 15:30:38,163 server listening on 127.0.0.1:7890
+2022-08-14 15:30:38,163 server listening on [::1]:7890
+2022-08-14 15:30:43,482 = connection is CONNECTING
+2022-08-14 15:30:43,483 < GET / HTTP/1.1
+2022-08-14 15:30:43,483 < Host: 127.0.0.1:7890
+2022-08-14 15:30:43,483 < Upgrade: websocket
+2022-08-14 15:30:43,483 < Connection: Upgrade
+2022-08-14 15:30:43,483 < Sec-WebSocket-Key: 8mhqorpiRhrY6Wzq9Pbpxg==
+2022-08-14 15:30:43,483 < Sec-WebSocket-Version: 13
+2022-08-14 15:30:43,483 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-14 15:30:43,483 < User-Agent: Python/3.9 websockets/10.3
+2022-08-14 15:30:43,485 > HTTP/1.1 101 Switching Protocols
+2022-08-14 15:30:43,485 > Upgrade: websocket
+2022-08-14 15:30:43,485 > Connection: Upgrade
+2022-08-14 15:30:43,485 > Sec-WebSocket-Accept: Ivq0+OT5VGQDW1V2zKIpp9TJ5Zk=
+2022-08-14 15:30:43,485 > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-14 15:30:43,485 > Date: Sun, 14 Aug 2022 19:30:43 GMT
+2022-08-14 15:30:43,485 > Server: Python/3.9 websockets/10.3
+2022-08-14 15:30:43,485 connection open
+2022-08-14 15:30:43,485 = connection is OPEN
+2022-08-14 15:30:43,485 > TEXT 'OK' [2 bytes]
+2022-08-14 15:31:03,487 % sending keepalive ping
+2022-08-14 15:31:03,487 > PING fc 46 3e 29 [binary, 4 bytes]
+2022-08-14 15:31:04,486 < TEXT '1' [1 byte]
+2022-08-14 15:31:08,749 < TEXT '100' [3 bytes]
+2022-08-14 15:31:08,749 > TEXT 'Your result is [0, 1, 1, 2, 3, 5, 8, 13, 21, 34... 218922995834555169026]' [1266 bytes]
+2022-08-14 15:31:08,749 > TEXT 'OK' [2 bytes]
+2022-08-14 15:31:08,750 < PONG fc 46 3e 29 [binary, 4 bytes]
+2022-08-14 15:31:08,750 < PING 3a 36 85 a0 [binary, 4 bytes]
+2022-08-14 15:31:08,750 > PONG 3a 36 85 a0 [binary, 4 bytes]
+2022-08-14 15:31:23,488 % sending keepalive ping
+2022-08-14 15:31:23,488 > PING 0f b0 ea 5e [binary, 4 bytes]
+2022-08-14 15:31:43,492 % sending keepalive ping
+2022-08-14 15:31:43,492 > PING 67 30 ca 75 [binary, 4 bytes]
+2022-08-14 15:32:03,495 % sending keepalive ping
+2022-08-14 15:32:03,496 > PING f0 35 a1 be [binary, 4 bytes]
+2022-08-14 15:32:23,499 % sending keepalive ping
+2022-08-14 15:32:23,499 > PING ac 4a 63 19 [binary, 4 bytes]
+2022-08-14 15:32:43,502 % sending keepalive ping
+2022-08-14 15:32:43,503 > PING 5b 80 08 de [binary, 4 bytes]
+2022-08-14 15:33:03,506 % sending keepalive ping
+2022-08-14 15:33:03,506 > PING 6e aa d1 36 [binary, 4 bytes]
+2022-08-14 15:33:23,509 % sending keepalive ping
+2022-08-14 15:33:23,510 > PING 4f b6 58 90 [binary, 4 bytes]
+2022-08-14 15:33:42,532 < TEXT '5' [1 byte]
+2022-08-14 15:33:43,511 % sending keepalive ping
+2022-08-14 15:33:43,511 > PING 2d a2 fb 2f [binary, 4 bytes]
+2022-08-14 15:33:43,744 < TEXT '100' [3 bytes]
+2022-08-14 15:33:43,745 > TEXT 'Your result is [3, 5, 8, 13, 21, 34, 55, 89, 14... 218922995834555169026]' [1254 bytes]
+2022-08-14 15:33:43,745 > TEXT 'OK' [2 bytes]
+2022-08-14 15:33:43,746 < PONG 0f b0 ea 5e [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PONG 67 30 ca 75 [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PONG f0 35 a1 be [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PONG ac 4a 63 19 [binary, 4 bytes]
+2022-08-14 15:33:43,747 < PONG 5b 80 08 de [binary, 4 bytes]
+2022-08-14 15:33:43,747 < PONG 6e aa d1 36 [binary, 4 bytes]
+2022-08-14 15:33:43,748 < PONG 4f b6 58 90 [binary, 4 bytes]
+2022-08-14 15:33:43,748 < PONG 2d a2 fb 2f [binary, 4 bytes]
+2022-08-14 15:33:43,748 < PING 5e 88 1f ad [binary, 4 bytes]
+2022-08-14 15:33:43,748 > PONG 5e 88 1f ad [binary, 4 bytes]
+2022-08-14 15:34:03,517 % sending keepalive ping
+2022-08-14 15:34:03,517 > PING 45 0d 07 94 [binary, 4 bytes]
+2022-08-14 15:34:23,519 % sending keepalive ping
+2022-08-14 15:34:23,520 > PING cc 80 3e a5 [binary, 4 bytes]
+2022-08-14 15:34:43,523 % sending keepalive ping
+2022-08-14 15:34:43,523 > PING a8 db 3f e4 [binary, 4 bytes]
+2022-08-14 15:35:03,526 % sending keepalive ping
+2022-08-14 15:35:03,527 > PING 3c 21 ec 3a [binary, 4 bytes]
+2022-08-14 15:35:23,530 % sending keepalive ping
+2022-08-14 15:35:23,532 > PING b3 ae 71 1b [binary, 4 bytes]
+2022-08-14 15:35:43,533 % sending keepalive ping
+2022-08-14 15:35:43,533 > PING d7 51 c3 41 [binary, 4 bytes]
+2022-08-14 15:36:03,537 % sending keepalive ping
+2022-08-14 15:36:03,537 > PING 1d 9b a6 fb [binary, 4 bytes]
+2022-08-14 15:36:23,541 % sending keepalive ping
+2022-08-14 15:36:23,541 > PING 00 e4 97 29 [binary, 4 bytes]
+2022-08-14 15:36:43,544 % sending keepalive ping
+2022-08-14 15:36:43,544 > PING 6c ae 0e 73 [binary, 4 bytes]
+2022-08-14 15:37:03,548 % sending keepalive ping
+2022-08-14 15:37:03,548 > PING 27 e7 28 16 [binary, 4 bytes]
+2022-08-14 15:37:23,551 % sending keepalive ping
+2022-08-14 15:37:23,552 > PING 9e c7 b3 4d [binary, 4 bytes]
+2022-08-14 15:37:43,556 % sending keepalive ping
+2022-08-14 15:37:43,556 > PING fb 39 29 13 [binary, 4 bytes]

@@ -1,7 +1,7 @@
 ## Guide
-- install [websocket](https://websockets.readthedocs.io/en/stable/intro/index.html)
+- install required libraries, Ex - [websocket](https://websockets.readthedocs.io/en/stable/intro/index.html)
 ```
-pip install websockets
+pip install -r requirement.txt
 ```
 - run the `server.py` 
 - run the `client.py` 
@@ -17,7 +17,7 @@ pip install websockets
   - instead of generate a new sub-fibonacci every time, save the fibonacci array in cache when first time run
   - check if the next request is in the cache
     - if yes, return
-    - if no, generate and append the elements 
+    - if no, generate and append the new elements 
 
 ## Reference of learning
 ### websocket

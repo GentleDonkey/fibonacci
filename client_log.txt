@@ -617,3 +617,54 @@
 2022-08-13 18:35:06,565 < TEXT 'OK' [2 bytes]
 2022-08-13 18:35:06,565 % sending keepalive ping
 2022-08-13 18:35:06,566 > PING ']\x1aQS' [text, 4 bytes]
+2022-08-14 15:30:43,450 Debug logging test...
+2022-08-14 15:30:43,451 Using selector: KqueueSelector
+2022-08-14 15:30:43,482 = connection is CONNECTING
+2022-08-14 15:30:43,482 > GET / HTTP/1.1
+2022-08-14 15:30:43,482 > Host: 127.0.0.1:7890
+2022-08-14 15:30:43,482 > Upgrade: websocket
+2022-08-14 15:30:43,482 > Connection: Upgrade
+2022-08-14 15:30:43,482 > Sec-WebSocket-Key: 8mhqorpiRhrY6Wzq9Pbpxg==
+2022-08-14 15:30:43,483 > Sec-WebSocket-Version: 13
+2022-08-14 15:30:43,483 > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-08-14 15:30:43,483 > User-Agent: Python/3.9 websockets/10.3
+2022-08-14 15:30:43,485 < HTTP/1.1 101 Switching Protocols
+2022-08-14 15:30:43,486 < Upgrade: websocket
+2022-08-14 15:30:43,486 < Connection: Upgrade
+2022-08-14 15:30:43,486 < Sec-WebSocket-Accept: Ivq0+OT5VGQDW1V2zKIpp9TJ5Zk=
+2022-08-14 15:30:43,486 < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-08-14 15:30:43,486 < Date: Sun, 14 Aug 2022 19:30:43 GMT
+2022-08-14 15:30:43,486 < Server: Python/3.9 websockets/10.3
+2022-08-14 15:30:43,486 = connection is OPEN
+2022-08-14 15:30:43,486 < TEXT 'OK' [2 bytes]
+2022-08-14 15:31:04,485 > TEXT '1' [1 byte]
+2022-08-14 15:31:08,748 > TEXT '100' [3 bytes]
+2022-08-14 15:31:08,749 < PING fc 46 3e 29 [binary, 4 bytes]
+2022-08-14 15:31:08,749 > PONG fc 46 3e 29 [binary, 4 bytes]
+2022-08-14 15:31:08,749 % sending keepalive ping
+2022-08-14 15:31:08,749 > PING 3a 36 85 a0 [binary, 4 bytes]
+2022-08-14 15:31:08,750 < TEXT 'Your result is [0, 1, 1, 2, 3, 5, 8, 13, 21, 34... 218922995834555169026]' [1266 bytes]
+2022-08-14 15:31:08,750 < TEXT 'OK' [2 bytes]
+2022-08-14 15:33:42,529 > TEXT '5' [1 byte]
+2022-08-14 15:33:43,744 > TEXT '100' [3 bytes]
+2022-08-14 15:33:43,744 < PONG 3a 36 85 a0 [binary, 4 bytes]
+2022-08-14 15:33:43,745 < PING 0f b0 ea 5e [binary, 4 bytes]
+2022-08-14 15:33:43,745 > PONG 0f b0 ea 5e [binary, 4 bytes]
+2022-08-14 15:33:43,745 < PING 67 30 ca 75 [binary, 4 bytes]
+2022-08-14 15:33:43,745 > PONG 67 30 ca 75 [binary, 4 bytes]
+2022-08-14 15:33:43,745 < PING f0 35 a1 be [binary, 4 bytes]
+2022-08-14 15:33:43,746 > PONG f0 35 a1 be [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PING ac 4a 63 19 [binary, 4 bytes]
+2022-08-14 15:33:43,746 > PONG ac 4a 63 19 [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PING 5b 80 08 de [binary, 4 bytes]
+2022-08-14 15:33:43,746 > PONG 5b 80 08 de [binary, 4 bytes]
+2022-08-14 15:33:43,746 < PING 6e aa d1 36 [binary, 4 bytes]
+2022-08-14 15:33:43,747 > PONG 6e aa d1 36 [binary, 4 bytes]
+2022-08-14 15:33:43,747 < PING 4f b6 58 90 [binary, 4 bytes]
+2022-08-14 15:33:43,747 > PONG 4f b6 58 90 [binary, 4 bytes]
+2022-08-14 15:33:43,747 < PING 2d a2 fb 2f [binary, 4 bytes]
+2022-08-14 15:33:43,748 > PONG 2d a2 fb 2f [binary, 4 bytes]
+2022-08-14 15:33:43,748 % sending keepalive ping
+2022-08-14 15:33:43,748 > PING 5e 88 1f ad [binary, 4 bytes]
+2022-08-14 15:33:43,748 < TEXT 'Your result is [3, 5, 8, 13, 21, 34, 55, 89, 14... 218922995834555169026]' [1254 bytes]
+2022-08-14 15:33:43,748 < TEXT 'OK' [2 bytes]
